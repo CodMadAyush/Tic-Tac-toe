@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Tic Tac Toe</h1>
+  <p>Please select an option:</p>
+  <button onclick="playMultiplayer()">Play Multiplayer on Same Device</button>
+  <button onclick="playSinglePlayer()">Play Single Player with AI</button>
+
+  <script>
+    function playMultiplayer() {
+      window.location.href = "game.html";
+    }
+
+    function playSinglePlayer() {
+      window.location.href = "single_player.html";
+    }
+  </script>
+</body>
+</html>
